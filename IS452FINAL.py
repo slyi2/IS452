@@ -32,14 +32,3 @@ csv_out.writerow(['Infotype','information'])
 csv_out.writerows(data)
 outfile.close()
 
-
-# In[43]:
-
-
-import csv    #typical outfile process we used in class for csv export.
-outfile = open('Job_Zone.csv','w')
-csv_out = csv.writer(outfile)
-csv_out.writerow(['Infotype','information'])
-csv_out.writerows(data)
-outfile.close()
-
